@@ -98,4 +98,4 @@ Navigate to `http://localhost:5173` (or the port Vite reports).
 
 ## 📄 License
 
-[MIT](LICENSE) • Made with ❤️ by Cutalyst devs
+[MIT](LICENSE) • Made with ❤️ by Mamta Rajpurohit
