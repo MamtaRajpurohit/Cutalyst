@@ -31,7 +31,7 @@ export default function UploadSection() {
 
     try {
       console.log("Uploading file:", file);
-      const res = await fetch("http://localhost:8000/upload", {
+      const res = await fetch("https://diu068-cutalyst.hf.space/upload", {
         method: "POST",
         body: formData,
       });
