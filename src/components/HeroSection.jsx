@@ -1,4 +1,5 @@
 import { Box, Typography, Button, Container } from "@mui/material";
+import { Link } from "react-router-dom"; 
 
 export default function HeroSection() {
   return (
@@ -99,8 +100,9 @@ export default function HeroSection() {
         {/* --- CTA Button --- */}
         <Box sx={{ position: "relative", zIndex: 20 }}>
           <Button
+            component={Link}   
+            to="/upload"  
             variant="contained"
-            href="/upload"
             sx={{
               px: 4,
               py: 1.5,
