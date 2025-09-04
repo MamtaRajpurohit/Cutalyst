@@ -113,6 +113,7 @@ export default function UploadSection() {
 
         {file && !uploading && (
           <Button
+            type="button" 
             onClick={handleUpload}
             variant="outlined"
             sx={{
