@@ -34,6 +34,9 @@ export default function UploadSection() {
       const res = await fetch("https://diu068-cutalyst.hf.space/upload", {
         method: "POST",
         body: formData,
+        headers: {
+              Accept: "application/json",
+        },
       });
       if (!res.ok) throw new Error("Server error: " + res.status);
       const data = await res.json();
